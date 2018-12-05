@@ -41,6 +41,7 @@ ScrollPane::ScrollPane(GComponent* owner) :
     _footerLockedSize(0),
     _vScrollNone(false),
     _hScrollNone(false),
+    _isMouseMoved(false),
     _tweening(0),
     _xPos(0),
     _yPos(0)
